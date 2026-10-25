@@ -522,6 +522,12 @@
 
     .floating-badge {
 
+      position: absolute;
+
+      bottom: 100px;
+
+      left: -20px;
+
       background: white;
 
       padding: 14px 18px;
@@ -535,10 +541,6 @@
       align-items: center;
 
       gap: 10px;
-
-      width: fit-content;
-
-      margin-bottom: 14px;
 
       font-size: 0.9rem;
 
@@ -1374,6 +1376,12 @@
 
       }
 
+      .floating-badge {
+
+        display: none;
+
+      }
+
     }
 
     @media (max-width: 560px) {
@@ -1526,15 +1534,17 @@
 
           <div class="hero-card-body">
 
-            <div class="floating-badge">
-              <span>✔</span> Trusted Local Clinic
-            </div>
-
             <h3>Expert Care, Personalised Attention</h3>
 
             <p style="color: var(--text-muted); font-size: 0.95rem;">Comprehensive eye check-ups, vision therapy, contact lenses, myopia control &amp; women’s health services under one roof.</p>
 
           </div>
+
+        </div>
+
+        <div class="floating-badge">
+
+          <span>✔</span> Trusted Local Clinic
 
         </div>
 
